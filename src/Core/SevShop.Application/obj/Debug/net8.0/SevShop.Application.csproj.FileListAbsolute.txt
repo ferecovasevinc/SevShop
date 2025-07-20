@@ -1,0 +1,15 @@
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\bin\Debug\net8.0\SevShop.Application.deps.json
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\bin\Debug\net8.0\SevShop.Application.dll
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\bin\Debug\net8.0\SevShop.Application.pdb
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\bin\Debug\net8.0\SevShop.Domain.dll
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\bin\Debug\net8.0\SevShop.Domain.pdb
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.AssemblyInfo.cs
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop..DC51B304.Up2Date
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.dll
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\refint\SevShop.Application.dll
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.pdb
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\ref\SevShop.Application.dll

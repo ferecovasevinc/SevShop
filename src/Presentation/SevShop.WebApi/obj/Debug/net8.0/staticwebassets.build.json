@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eTjPhmUGeJOIkH//1GpYfVcbtVq0hGv3Mi9X72KkfjQ=",
+  "Source": "SevShop.WebApi",
+  "BasePath": "_content/SevShop.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

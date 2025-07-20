@@ -1,0 +1,6 @@
+@SevShop.WebApi_HostAddress = http://localhost:5074
+
+GET {{SevShop.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

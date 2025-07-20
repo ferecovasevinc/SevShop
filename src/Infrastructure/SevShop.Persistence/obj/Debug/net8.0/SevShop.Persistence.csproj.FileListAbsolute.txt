@@ -1,0 +1,17 @@
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Persistence.deps.json
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Persistence.dll
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Persistence.pdb
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Application.dll
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Domain.dll
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Application.pdb
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\bin\Debug\net8.0\SevShop.Domain.pdb
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.AssemblyInfo.cs
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop..4DE7D92F.Up2Date
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.dll
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\refint\SevShop.Persistence.dll
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\SevShop.Persistence.pdb
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Persistence\obj\Debug\net8.0\ref\SevShop.Persistence.dll
