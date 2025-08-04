@@ -13,3 +13,6 @@ C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\
 C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\refint\SevShop.Application.dll
 C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.pdb
 C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\ref\SevShop.Application.dll
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\bin\Debug\net8.0\SevShop.Application.runtimeconfig.json
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.sourcelink.json
+C:\Users\MSI\source\repos\SevShop\src\Core\SevShop.Application\obj\Debug\net8.0\SevShop.Application.genruntimeconfig.cache

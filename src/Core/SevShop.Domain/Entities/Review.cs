@@ -6,7 +6,7 @@ public class Review : BaseEntity
     public int Rating { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-    public Guid AppUserId { get; set; }
+    public string AppUserId { get; set; }
     public AppUser AppUser { get; set; }
 
     public Guid ProductId { get; set; }

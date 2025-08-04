@@ -15,17 +15,19 @@ public class Product : BaseEntity
     public bool IsFeatured { get; set; } = false; // Xüsusi məhsul
     public bool IsNew { get; set; } = true;
 
-    public int CategoryId { get; set; }
+    public Guid CategoryId { get; set; }
     public Category Category { get; set; }
 
-    public int BrandId { get; set; }
+    public Guid BrandId { get; set; }
     public Brand Brand { get; set; }
 
-    public int GenderId { get; set; }
+    public Guid GenderId { get; set; }
     public Gender Gender { get; set; }
 
     public ICollection<ProductSizeColor> ProductSizeColors { get; set; }
     public ICollection<Image> Images { get; set; }
     public ICollection<Review> Reviews { get; set; }
     public ICollection<Favorite> Favorites { get; set; }
+    public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
+
 }

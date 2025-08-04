@@ -9,3 +9,7 @@ C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\
 C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\Debug\net8.0\refint\SevShop.Infrastructure.dll
 C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\Debug\net8.0\SevShop.Infrastructure.pdb
 C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\Debug\net8.0\ref\SevShop.Infrastructure.dll
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\bin\Debug\net8.0\SevShop.Infrastructure.runtimeconfig.json
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\Debug\net8.0\SevShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\Debug\net8.0\SevShop.Infrastructure.sourcelink.json
+C:\Users\MSI\source\repos\SevShop\src\Infrastructure\SevShop.Infrastructure\obj\Debug\net8.0\SevShop.Infrastructure.genruntimeconfig.cache
