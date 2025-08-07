@@ -18,6 +18,9 @@ public class Product : BaseEntity
     public Guid CategoryId { get; set; }
     public Category Category { get; set; }
 
+    public Guid AppUserId { get; set; }
+    public AppUser AppUser { get; set; }
+
     public Guid BrandId { get; set; }
     public Brand Brand { get; set; }
 
