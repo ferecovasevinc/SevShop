@@ -4,7 +4,7 @@ namespace SevShop.Domain.Entities;
 
 public class AIChat : BaseEntity
 {
-    public string AppUserId { get; set; }
+    public Guid AppUserId { get; set; }
     public AppUser AppUser { get; set; }
 
     [Required]
