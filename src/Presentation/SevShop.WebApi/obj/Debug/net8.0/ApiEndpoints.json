@@ -212,6 +212,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SevShop.WebApi.Controllers.FilesController",
+    "Method": "Upload",
+    "RelativePath": "api/Files/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SevShop.WebApi.Controllers.ProductsController",
     "Method": "GetAll",
     "RelativePath": "api/Products",
