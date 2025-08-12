@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SevShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec8d26651d959bb94a387cbb08cf054e76f3672d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be5ab9d1706cbcf9ece5faae5bc2549e5ac185ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("SevShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SevShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
