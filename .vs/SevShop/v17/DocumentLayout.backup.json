@@ -3,48 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\SevShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.webapi\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|solutionrelative:src\\presentation\\sevshop.webapi\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\imagevalidators\\imageupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\imagevalidators\\imageupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|solutionrelative:src\\presentation\\sevshop.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\imagevalidators\\imagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\imagevalidators\\imagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\imagedtos\\imageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\imagedtos\\imageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\imagedtos\\imagelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\imagedtos\\imagelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\imagedtos\\imagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\imagedtos\\imagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\ordervalidators\\orderupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\ordervalidators\\orderupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\ordervalidators\\ordercreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\ordervalidators\\ordercreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\orderdtos\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\orderdtos\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\orderdtos\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\orderdtos\\orderproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\orderdtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\orderdtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\orderdtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\orderdtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\orderdtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\orderdtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,34 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ImagesController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\ImagesController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\SevShop.WebApi\\Controllers\\ImagesController.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\ImagesController.cs",
-              "RelativeToolTip": "src\\Presentation\\SevShop.WebApi\\Controllers\\ImagesController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwEQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:17:11.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:15:59.912Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -92,119 +74,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\ImageService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Services\\ImageService.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\ImageService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Services\\ImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:14:47.247Z",
+              "WhenOpened": "2025-08-13T17:52:38.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\ImageRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\ImageRepository.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\ImageRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\ImageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SevShop.WebApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "src\\Presentation\\SevShop.WebApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:13:25.698Z",
+              "WhenOpened": "2025-08-13T17:04:07.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\OrderService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:01:57.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:00:17.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ImageUpdateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageUpdateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageUpdateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageUpdateDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageUpdateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\IOrderService.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:11:41.136Z",
+              "WhenOpened": "2025-08-13T16:59:22.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ImageCreateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageCreateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageCreateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageCreateDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\ImageValidators\\ImageCreateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:11:02.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImageUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageUpdateDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageUpdateDto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageUpdateDto.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:07:51.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ImageListDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageListDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageListDto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageListDto.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageListDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:07:05.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ImageCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageCreateDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageCreateDto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageCreateDto.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\ImageDtos\\ImageCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:06:19.217Z",
+              "WhenOpened": "2025-08-13T16:58:24.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IImageService.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\IImageService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Services\\IImageService.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\IImageService.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Services\\IImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Title": "OrderUpdateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderUpdateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderUpdateDtoValidator.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderUpdateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:05:09.062Z",
+              "WhenOpened": "2025-08-13T16:56:57.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderCreateDtoValidator.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\OrderValidators\\OrderCreateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:53:30.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderUpdateDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:51:36.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderProductDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderProductDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderProductDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:49:07.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderListDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderListDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderListDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderListDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:48:00.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IImageRepository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IImageRepository.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IImageRepository.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IImageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderDetailDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:03:50.348Z",
+              "WhenOpened": "2025-08-13T16:47:01.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderCreateDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\OrderDtos\\OrderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:46:14.637Z",
               "EditorCaption": ""
             }
           ]
