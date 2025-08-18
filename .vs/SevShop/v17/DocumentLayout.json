@@ -3,48 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\SevShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.webapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|solutionrelative:src\\presentation\\sevshop.webapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\shared\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\shared\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\repositories\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\repositories\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\reviewdtos\\reviewupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\reviewdtos\\reviewupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.webapi\\controllers\\sizescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|solutionrelative:src\\presentation\\sevshop.webapi\\controllers\\sizescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\reviewdtos\\reviewgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\reviewdtos\\reviewgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\services\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\services\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\reviewdtos\\reviewcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\reviewdtos\\reviewcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\services\\isizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\services\\isizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\reviewvalidators\\reviewcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\reviewvalidators\\reviewcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\repositories\\sizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\repositories\\sizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\reviewvalidators\\reviewupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\reviewvalidators\\reviewupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\repositories\\isizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\repositories\\isizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\abstracts\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\abstracts\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\sizevalidators\\sizeupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\sizevalidators\\sizeupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\infrastructure\\sevshop.persistence\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812C7683-CBF3-4BE8-84D4-1B566F4EFAC8}|src\\Infrastructure\\SevShop.Persistence\\SevShop.Persistence.csproj|solutionrelative:src\\infrastructure\\sevshop.persistence\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\validations\\sizevalidators\\sizecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\validations\\sizevalidators\\sizecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\sizedtos\\sizegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\sizedtos\\sizegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\sizedtos\\sizeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\sizedtos\\sizeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\core\\sevshop.application\\dtos\\sizedtos\\sizecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0941AD1-4BAC-4DB3-848B-310360CE9EF5}|src\\Core\\SevShop.Application\\SevShop.Application.csproj|solutionrelative:src\\core\\sevshop.application\\dtos\\sizedtos\\sizecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,145 +74,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ReviewsController.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\ReviewsController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\SevShop.WebApi\\Controllers\\ReviewsController.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\ReviewsController.cs",
               "RelativeToolTip": "src\\Presentation\\SevShop.WebApi\\Controllers\\ReviewsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwC4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:51:01.663Z",
+              "WhenOpened": "2025-08-18T17:48:44.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\ReviewService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Services\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\ReviewService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Services\\ReviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Shared\\Permissions.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Shared\\Permissions.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Shared\\Permissions.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Shared\\Permissions.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwKEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:18:08.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReviewCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewCreateDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewCreateDto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewCreateDto.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T12:23:45.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewGetDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewGetDto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewGetDto.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewGetDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T12:25:33.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReviewUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewUpdateDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewUpdateDto.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewUpdateDto.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\ReviewDtos\\ReviewUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T12:24:58.234Z",
+              "WhenOpened": "2025-08-18T17:44:27.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IReviewRepository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IReviewRepository.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IReviewRepository.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\IReviewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "SizesController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\SizesController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SevShop.WebApi\\Controllers\\SizesController.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\SizesController.cs",
+              "RelativeToolTip": "src\\Presentation\\SevShop.WebApi\\Controllers\\SizesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:08:05.543Z",
+              "WhenOpened": "2025-08-18T17:41:18.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "SizeService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\SizeService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Services\\SizeService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Services\\SizeService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Services\\SizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:39:52.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISizeService.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\ISizeService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Services\\ISizeService.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\ISizeService.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Services\\ISizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:39:15.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SizeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\SizeRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\SizeRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\SizeRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\SizeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:37:33.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISizeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\ISizeRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\ISizeRepository.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Repositories\\ISizeRepository.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Repositories\\ISizeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:36:11.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SizeUpdateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeUpdateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeUpdateDtoValidator.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeUpdateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:33:48.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
               "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T17:52:38.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReviewCreateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewCreateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewCreateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewCreateDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewCreateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T12:27:20.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReviewUpdateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewUpdateDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewUpdateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewUpdateDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\ReviewValidators\\ReviewUpdateDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T12:58:23.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\IReviewService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Abstracts\\Services\\IReviewService.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Abstracts\\Services\\IReviewService.cs",
-              "RelativeToolTip": "src\\Core\\SevShop.Application\\Abstracts\\Services\\IReviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "SizeCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeCreateDtoValidator.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\Validations\\SizeValidators\\SizeCreateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:17:27.771Z",
+              "WhenOpened": "2025-08-18T17:07:23.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\ReviewRepository.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Infrastructure\\SevShop.Persistence\\Repositories\\ReviewRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\SevShop.Persistence\\Repositories\\ReviewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Title": "SizeGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeGetDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeGetDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeGetDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T13:09:08.265Z",
+              "WhenOpened": "2025-08-18T17:06:24.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SizeUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeUpdateDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:05:39.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SizeCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeCreateDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\SevShop.Application\\DTOs\\SizeDtos\\SizeCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:05:09.981Z",
               "EditorCaption": ""
             }
           ]

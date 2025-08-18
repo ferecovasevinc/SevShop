@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SevShop.Application.Abstracts.Services;
 using SevShop.Application.DTOs.ReviewDtos;
+using SevShop.Application.Shared;
 
 namespace SevShop.WebApi.Controllers;
 
@@ -17,6 +19,7 @@ public class ReviewsController : ControllerBase
         }
 
         [HttpPost]
+        [Authorize(Policy = Permissions.Review.Create)]
         public async Task<IActionResult> Create([FromBody] ReviewCreateDto dto)
         {
             var result = await _reviewService.CreateAsync(dto);
@@ -24,6 +27,7 @@ public class ReviewsController : ControllerBase
         }
 
         [HttpPut]
+        [Authorize(Policy = Permissions.Review.Update)]
         public async Task<IActionResult> Update([FromBody] ReviewUpdateDto dto)
         {
             var result = await _reviewService.UpdateAsync(dto);
@@ -31,6 +35,7 @@ public class ReviewsController : ControllerBase
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Policy = Permissions.Review.Delete)]
         public async Task<IActionResult> Delete(Guid id)
         {
             var success = await _reviewService.DeleteAsync(id);
@@ -39,6 +44,7 @@ public class ReviewsController : ControllerBase
         }
 
         [HttpGet("{id}")]
+        [Authorize(Policy = Permissions.Review.GetByProductId)]
         public async Task<IActionResult> GetById(Guid id)
         {
             var result = await _reviewService.GetByIdAsync(id);
@@ -47,6 +53,7 @@ public class ReviewsController : ControllerBase
         }
 
         [HttpGet("product/{productId}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetByProductId(Guid productId)
         {
             var result = await _reviewService.GetReviewsByProductIdAsync(productId);

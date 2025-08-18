@@ -147,5 +147,23 @@ public static class Permissions
             GetAllPermissions
         };
     }
+
+    public static class Size
+    {
+        public const string GetAll = "Size.GetAll";
+        public const string GetById = "Size.GetById";
+        public const string Create = "Size.Create";
+        public const string Update = "Size.Update";
+        public const string Delete = "Size.Delete";
+
+        public static List<string> All = new()
+        {
+            GetAll,
+            GetById,
+            Create,
+            Update,
+            Delete
+        };
+    }
 }
 

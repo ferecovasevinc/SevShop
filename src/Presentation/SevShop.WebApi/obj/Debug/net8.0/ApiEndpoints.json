@@ -736,5 +736,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.SizesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sizes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.SizesController",
+    "Method": "Create",
+    "RelativePath": "api/Sizes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.SizeDtos.SizeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.SizesController",
+    "Method": "Update",
+    "RelativePath": "api/Sizes",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.SizeDtos.SizeUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.SizesController",
+    "Method": "GetById",
+    "RelativePath": "api/Sizes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.SizesController",
+    "Method": "Delete",
+    "RelativePath": "api/Sizes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
