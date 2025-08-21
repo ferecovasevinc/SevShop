@@ -364,6 +364,135 @@
     ]
   },
   {
+    "ContainingType": "SevShop.WebApi.Controllers.LanguagesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Languages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SevShop.Application.Shared.BaseResponse\u00601[[System.Collections.Generic.List\u00601[[SevShop.Application.DTOs.LanguageDtos.LanguageGetDto, SevShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.LanguagesController",
+    "Method": "Create",
+    "RelativePath": "api/Languages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.LanguageDtos.LanguageCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SevShop.Application.Shared.BaseResponse\u00601[[SevShop.Application.DTOs.LanguageDtos.LanguageGetDto, SevShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.LanguagesController",
+    "Method": "GetById",
+    "RelativePath": "api/Languages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SevShop.Application.Shared.BaseResponse\u00601[[SevShop.Application.DTOs.LanguageDtos.LanguageGetDto, SevShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.LanguagesController",
+    "Method": "Update",
+    "RelativePath": "api/Languages/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.LanguageDtos.LanguageUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SevShop.Application.Shared.BaseResponse\u00601[[SevShop.Application.DTOs.LanguageDtos.LanguageGetDto, SevShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.LanguagesController",
+    "Method": "Delete",
+    "RelativePath": "api/Languages/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SevShop.Application.Shared.BaseResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "SevShop.WebApi.Controllers.OrderProductsController",
     "Method": "Create",
     "RelativePath": "api/OrderProducts",
