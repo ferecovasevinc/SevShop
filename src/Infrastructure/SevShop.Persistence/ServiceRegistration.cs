@@ -23,6 +23,7 @@ public static class ServiceRegistration
         services.AddScoped<ILanguageRepository, LanguageRepository>();
         services.AddScoped<IGenderRepository, GenderRepository>();
         services.AddScoped<IColorRepository, ColorRepository>();
+        services.AddScoped<IChatMessageRepository, ChatMessageRepository>();
         #endregion
 
         #region Services
@@ -38,6 +39,7 @@ public static class ServiceRegistration
         services.AddScoped<ILanguageService, LanguageService>();
         services.AddScoped<IGenderService, GenderService>();
         services.AddScoped<IColorService, ColorService>();
+        services.AddScoped<IChatMessageService, ChatMessageService>();
         #endregion
     }
 }
