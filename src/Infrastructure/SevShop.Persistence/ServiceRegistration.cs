@@ -22,6 +22,7 @@ public static class ServiceRegistration
         services.AddScoped<ISizeRepository, SizeRepository>();
         services.AddScoped<ILanguageRepository, LanguageRepository>();
         services.AddScoped<IGenderRepository, GenderRepository>();
+        services.AddScoped<IColorRepository, ColorRepository>();
         #endregion
 
         #region Services
@@ -36,6 +37,7 @@ public static class ServiceRegistration
         services.AddScoped<ISizeService, SizeService>();
         services.AddScoped<ILanguageService, LanguageService>();
         services.AddScoped<IGenderService, GenderService>();
+        services.AddScoped<IColorService, ColorService>();
         #endregion
     }
 }
