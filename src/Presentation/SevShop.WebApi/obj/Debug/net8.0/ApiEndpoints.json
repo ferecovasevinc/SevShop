@@ -228,6 +228,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SevShop.WebApi.Controllers.GendersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Genders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.GendersController",
+    "Method": "Create",
+    "RelativePath": "api/Genders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.GenderDtos.GenderCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.GendersController",
+    "Method": "Update",
+    "RelativePath": "api/Genders",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.GenderDtos.GenderUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.GendersController",
+    "Method": "GetById",
+    "RelativePath": "api/Genders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.GendersController",
+    "Method": "Delete",
+    "RelativePath": "api/Genders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SevShop.WebApi.Controllers.ImagesController",
     "Method": "GetAll",
     "RelativePath": "api/Images",

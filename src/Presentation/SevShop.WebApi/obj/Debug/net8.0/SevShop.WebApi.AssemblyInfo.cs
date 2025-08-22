@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SevShop.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fff7e6602aef712d92f54d34be389be34f493a19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbf24ee28998e5bf18fcc0548bacd332960e20cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SevShop.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SevShop.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

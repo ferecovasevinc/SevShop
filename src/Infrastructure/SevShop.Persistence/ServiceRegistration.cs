@@ -21,6 +21,7 @@ public static class ServiceRegistration
         services.AddScoped<IReviewRepository, ReviewRepository>();
         services.AddScoped<ISizeRepository, SizeRepository>();
         services.AddScoped<ILanguageRepository, LanguageRepository>();
+        services.AddScoped<IGenderRepository, GenderRepository>();
         #endregion
 
         #region Services
@@ -34,6 +35,7 @@ public static class ServiceRegistration
         services.AddScoped<IReviewService, ReviewService>();
         services.AddScoped<ISizeService, SizeService>();
         services.AddScoped<ILanguageService, LanguageService>();
+        services.AddScoped<IGenderService, GenderService>();
         #endregion
     }
 }
