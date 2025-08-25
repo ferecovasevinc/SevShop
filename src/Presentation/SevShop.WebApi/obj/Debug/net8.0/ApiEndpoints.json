@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "SevShop.WebApi.Controllers.AIChatsController",
+    "Method": "Create",
+    "RelativePath": "api/AIChats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.AIChatDtos.AIChatCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.AIChatsController",
+    "Method": "Update",
+    "RelativePath": "api/AIChats",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.AIChatDtos.AIChatUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.AIChatsController",
+    "Method": "GetAllByUser",
+    "RelativePath": "api/AIChats/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SevShop.WebApi.Controllers.BasketItemsController",
     "Method": "Create",
     "RelativePath": "api/BasketItems",
