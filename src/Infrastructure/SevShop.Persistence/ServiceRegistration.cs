@@ -24,6 +24,8 @@ public static class ServiceRegistration
         services.AddScoped<IGenderRepository, GenderRepository>();
         services.AddScoped<IColorRepository, ColorRepository>();
         services.AddScoped<IChatMessageRepository, ChatMessageRepository>();
+        services.AddScoped<IBrandRepository, BrandRepository>();
+        services.AddScoped<IBasketItemRepository, BasketItemRepository>();
         #endregion
 
         #region Services
@@ -40,6 +42,8 @@ public static class ServiceRegistration
         services.AddScoped<IGenderService, GenderService>();
         services.AddScoped<IColorService, ColorService>();
         services.AddScoped<IChatMessageService, ChatMessageService>();
+        services.AddScoped<IBrandService, BrandService>();
+        services.AddScoped<IBasketItemService, BasketItemService>();
         #endregion
     }
 }
