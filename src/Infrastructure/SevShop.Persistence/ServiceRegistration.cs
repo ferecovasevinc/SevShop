@@ -26,6 +26,7 @@ public static class ServiceRegistration
         services.AddScoped<IChatMessageRepository, ChatMessageRepository>();
         services.AddScoped<IBrandRepository, BrandRepository>();
         services.AddScoped<IBasketItemRepository, BasketItemRepository>();
+        services.AddScoped<IBasketRepository, BasketRepository>();
         #endregion
 
         #region Services
@@ -44,6 +45,7 @@ public static class ServiceRegistration
         services.AddScoped<IChatMessageService, ChatMessageService>();
         services.AddScoped<IBrandService, BrandService>();
         services.AddScoped<IBasketItemService, BasketItemService>();
+        services.AddScoped<IBasketService, BasketService>();
         #endregion
     }
 }

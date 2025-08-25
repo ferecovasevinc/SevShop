@@ -85,6 +85,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SevShop.WebApi.Controllers.BasketsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.BasketsController",
+    "Method": "Create",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.BaketDtos.BasketCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.BasketsController",
+    "Method": "Get",
+    "RelativePath": "api/Baskets/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.BasketsController",
+    "Method": "Update",
+    "RelativePath": "api/Baskets/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SevShop.Application.DTOs.BaketDtos.BasketUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SevShop.WebApi.Controllers.BasketsController",
+    "Method": "Delete",
+    "RelativePath": "api/Baskets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SevShop.WebApi.Controllers.BrandsController",
     "Method": "GetAll",
     "RelativePath": "api/Brands",
