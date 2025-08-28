@@ -20,14 +20,49 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddValidatorsFromAssembly(typeof(CategoryCreateDtoValidator).Assembly);
 builder.Services.AddControllers();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddFluentValidationClientsideAdapters();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.RegisterService();
+
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "SevShop API",
+        Version = "v1"
+    });
+
+    var jwtSecurityScheme = new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        Name = "Authorization",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+        Description = "Enter your JWT token like this: Bearer {your token}",
+
+        Reference = new Microsoft.OpenApi.Models.OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme
+        }
+    };
+
+    options.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+
+    options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        { jwtSecurityScheme, Array.Empty<string>() }
+    });
+});
+
 
 // JwtSettings 
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
@@ -50,10 +85,27 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey)),
         ValidateLifetime = true,
-        ClockSkew = TimeSpan.Zero // Token vaxt? d?qiq olsun
+        ClockSkew = TimeSpan.Zero 
     };
 });
 
+
+
+builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
+{
+    options.Password.RequiredLength = 8;
+    options.User.RequireUniqueEmail = true;
+    options.Lockout.MaxFailedAccessAttempts = 3;
+})
+.AddEntityFrameworkStores<SevShopDbContext>()
+.AddDefaultTokenProviders();
+
+
+
+builder.Services.AddDbContext<SevShopDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+});
 
 
 builder.Services.AddAuthorization(options =>
@@ -67,26 +119,8 @@ builder.Services.AddAuthorization(options =>
     }
 });
 
-builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
-{
-    options.Password.RequiredLength = 8;
-    options.User.RequireUniqueEmail = true;
-    options.Lockout.MaxFailedAccessAttempts = 3;
-})
-.AddEntityFrameworkStores<SevShopDbContext>()
-.AddDefaultTokenProviders();
 
-
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<SevShopDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-});
+builder.Services.RegisterService();
 
 var app = builder.Build();
 

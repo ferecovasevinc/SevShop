@@ -2,6 +2,6 @@
 
 public class Gender : BaseEntity
 {
-    public string Name { get; set; } // "Kişi", "Qadın", "Uşaq"
+    public string Name { get; set; } 
     public ICollection<Product> Products { get; set; } = new List<Product>();
 }

@@ -6,7 +6,7 @@ public class Order : BaseEntity
     public Guid BuyerId { get; set; }
     public DateTime OrderDate { get; set; }
     public decimal TotalPrice { get; set; }
-    public string OrderNumber { get; set; } // "ORD-20240803-001"
+    public string OrderNumber { get; set; }
     public decimal TotalAmount { get; set; }
     public decimal ShippingCost { get; set; } = 0;
 

@@ -3,7 +3,7 @@ using System.Net;
 
 namespace SevShop.Domain.Entities;
 
-public class AppUser : IdentityUser
+public class AppUser : IdentityUser<Guid>
 {
     public string FullName { get; set; }
     public bool IsActive { get; set; } = true;
@@ -21,5 +21,5 @@ public class AppUser : IdentityUser
     public ICollection<Order> Orders { get; set; } = new List<Order>(); 
     public ICollection<ChatMessage> SentMessages { get; set; } = new List<ChatMessage>();
     public ICollection<ChatMessage> ReceivedMessages { get; set; } = new List<ChatMessage>();
-    public ICollection<AIChat> AIChats { get; set; } = new List<AIChat>(); // AI chat
+    public ICollection<AIChat> AIChats { get; set; } = new List<AIChat>();
 }

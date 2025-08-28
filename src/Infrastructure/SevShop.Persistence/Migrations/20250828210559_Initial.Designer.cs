@@ -12,8 +12,8 @@ using SevShop.Persistence.Contexts;
 namespace SevShop.Persistence.Migrations
 {
     [DbContext(typeof(SevShopDbContext))]
-    [Migration("20250804134319_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250828210559_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,9 +36,8 @@ namespace SevShop.Persistence.Migrations
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -60,8 +59,9 @@ namespace SevShop.Persistence.Migrations
 
             modelBuilder.Entity("SevShop.Domain.Entities.AppUser", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -270,13 +270,11 @@ namespace SevShop.Persistence.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
-                    b.Property<string>("ReceiverId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("ReceiverId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("SenderId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("SenderId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("SentAt")
                         .HasColumnType("datetime2");
@@ -329,9 +327,8 @@ namespace SevShop.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -442,8 +439,8 @@ namespace SevShop.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AppUserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid?>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("BuyerId")
                         .HasColumnType("uniqueidentifier");
@@ -540,8 +537,8 @@ namespace SevShop.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AppUserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("BrandId")
                         .HasColumnType("uniqueidentifier");
@@ -647,9 +644,8 @@ namespace SevShop.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("AppUserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Comment")
                         .IsRequired()
@@ -802,9 +798,11 @@ namespace SevShop.Persistence.Migrations
 
             modelBuilder.Entity("SevShop.Domain.Entities.Product", b =>
                 {
-                    b.HasOne("SevShop.Domain.Entities.AppUser", null)
+                    b.HasOne("SevShop.Domain.Entities.AppUser", "AppUser")
                         .WithMany("Products")
-                        .HasForeignKey("AppUserId");
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("SevShop.Domain.Entities.Brand", "Brand")
                         .WithMany("Products")
@@ -827,6 +825,8 @@ namespace SevShop.Persistence.Migrations
                         .HasForeignKey("GenderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Brand");
 

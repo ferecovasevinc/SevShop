@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SevShop.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +15,7 @@ namespace SevShop.Persistence.Migrations
                 name: "AppUsers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -160,7 +160,7 @@ namespace SevShop.Persistence.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AppUserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UserMessage = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
                     AIResponse = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -182,8 +182,8 @@ namespace SevShop.Persistence.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    SenderId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    ReceiverId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    SenderId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    ReceiverId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Message = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
                     SentAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsRead = table.Column<bool>(type: "bit", nullable: false),
@@ -222,7 +222,7 @@ namespace SevShop.Persistence.Migrations
                     ShippingPhone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Notes = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    AppUserId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -274,9 +274,9 @@ namespace SevShop.Persistence.Migrations
                     IsFeatured = table.Column<bool>(type: "bit", nullable: false),
                     IsNew = table.Column<bool>(type: "bit", nullable: false),
                     CategoryId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    AppUserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     BrandId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     GenderId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     ColorId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -288,7 +288,8 @@ namespace SevShop.Persistence.Migrations
                         name: "FK_Products_AppUsers_AppUserId",
                         column: x => x.AppUserId,
                         principalTable: "AppUsers",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Products_Brands_BrandId",
                         column: x => x.BrandId,
@@ -320,7 +321,7 @@ namespace SevShop.Persistence.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AppUserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ProductId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -436,7 +437,7 @@ namespace SevShop.Persistence.Migrations
                     Comment = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Rating = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AppUserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ProductId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },

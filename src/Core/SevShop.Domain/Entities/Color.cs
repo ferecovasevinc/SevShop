@@ -2,10 +2,10 @@
 
 public class Color : BaseEntity
 {
-    public string Name { get; set; } // "Qara", "Ağ", "Qırmızı"
-    public string HexCode { get; set; } 
+    public string Name { get; set; }
+    public string HexCode { get; set; }
 
-    public bool IsDark { get; set; } // Qaranlıq/Açıq filter üçün
+    public bool IsDark { get; set; }
 
     public ICollection<Product> Products { get; set; } = new List<Product>();
 }

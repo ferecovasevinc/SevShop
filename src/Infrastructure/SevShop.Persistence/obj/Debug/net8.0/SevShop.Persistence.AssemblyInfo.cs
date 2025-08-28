@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SevShop.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35f9042bafa68f839dea8feec3fe07b631c1b807")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+633eb23cdcf46e8d424c1e866b454e05fa2c579a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SevShop.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SevShop.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
