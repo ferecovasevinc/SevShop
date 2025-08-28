@@ -162,3 +162,4 @@ C:\Users\MSI\source\repos\SevShop\src\Presentation\SevShop.WebApi\bin\Debug\net8
 C:\Users\MSI\source\repos\SevShop\src\Presentation\SevShop.WebApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\MSI\source\repos\SevShop\src\Presentation\SevShop.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\MSI\source\repos\SevShop\src\Presentation\SevShop.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\MSI\source\repos\SevShop\src\Presentation\SevShop.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

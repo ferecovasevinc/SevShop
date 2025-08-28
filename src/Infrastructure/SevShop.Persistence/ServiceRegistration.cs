@@ -48,6 +48,9 @@ public static class ServiceRegistration
         services.AddScoped<IBasketItemService, BasketItemService>();
         services.AddScoped<IBasketService, BasketService>();
         services.AddScoped<IAIChatService, AIChatService>();
+        services.AddScoped<IRoleService, RoleService>();
+        services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IEmailService, EmailService>();
         #endregion
     }
 }

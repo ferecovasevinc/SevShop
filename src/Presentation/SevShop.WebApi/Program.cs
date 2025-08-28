@@ -1,15 +1,18 @@
-using FluentValidation.AspNetCore;
 using FluentValidation;
-using Microsoft.EntityFrameworkCore;
-using SevShop.Application.Validations.CategoryValidators;
-using SevShop.Persistence.Contexts;
-using SevShop.Persistence;
-using SevShop.Application.Abstracts.Repositories;
-using SevShop.Persistence.Repositories;
-using SevShop.Application.Shared.Helpers;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using SevShop.Application.Abstracts.Repositories;
+using SevShop.Application.Shared.Helpers;
+using SevShop.Application.Shared.Settings;
+using SevShop.Application.Validations.CategoryValidators;
 using SevShop.Domain.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using SevShop.Persistence;
+using SevShop.Persistence.Contexts;
+using SevShop.Persistence.Repositories;
+using System.Text;
 
 
 
@@ -26,6 +29,31 @@ builder.Services.RegisterService();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
+// JwtSettings 
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidIssuer = jwtSettings.Issuer,
+        ValidateAudience = true,
+        ValidAudience = jwtSettings.Audience,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey)),
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.Zero // Token vaxt? d?qiq olsun
+    };
+});
+
 
 
 builder.Services.AddAuthorization(options =>
@@ -39,7 +67,7 @@ builder.Services.AddAuthorization(options =>
     }
 });
 
-builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
 {
     options.Password.RequiredLength = 8;
     options.User.RequireUniqueEmail = true;
@@ -47,7 +75,6 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 })
 .AddEntityFrameworkStores<SevShopDbContext>()
 .AddDefaultTokenProviders();
-
 
 
 
@@ -72,6 +99,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
