@@ -1,11 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SevShop.Domain.Entities;
 using SevShop.Persistence.Configurations;
 using System.Net;
 
 namespace SevShop.Persistence.Contexts;
 
-public class SevShopDbContext : DbContext
+public class SevShopDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>
 {
     public SevShopDbContext(DbContextOptions<SevShopDbContext> options) : base(options)
     {
@@ -19,7 +21,6 @@ public class SevShopDbContext : DbContext
     }
 
     public DbSet<AIChat> AIChats { get; set; }
-    public DbSet<AppUser> AppUsers { get; set; }
     public DbSet<Basket> Baskets { get; set; }
     public DbSet<BasketItem> BasketItems { get; set; }
     public DbSet<Brand> Brands { get; set; }

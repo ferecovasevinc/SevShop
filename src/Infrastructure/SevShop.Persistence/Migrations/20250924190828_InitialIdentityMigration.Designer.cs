@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SevShop.Persistence.Contexts;
 
@@ -11,9 +12,11 @@ using SevShop.Persistence.Contexts;
 namespace SevShop.Persistence.Migrations
 {
     [DbContext(typeof(SevShopDbContext))]
-    partial class SevShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250924190828_InitialIdentityMigration")]
+    partial class InitialIdentityMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
