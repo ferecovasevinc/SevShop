@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SevShop.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+127a9ef9c12b37aa1618022f4ed8cf37089ac61c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d51ea76e32453e6948b0d9608b33fcc8de9f7aeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SevShop.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SevShop.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

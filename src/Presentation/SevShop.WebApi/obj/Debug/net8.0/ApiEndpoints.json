@@ -783,6 +783,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SevShop.WebApi.Controllers.CloudinaryController",
+    "Method": "Upload",
+    "RelativePath": "api/Cloudinary/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SevShop.WebApi.Controllers.ColorsController",
     "Method": "GetAll",
     "RelativePath": "api/Colors",

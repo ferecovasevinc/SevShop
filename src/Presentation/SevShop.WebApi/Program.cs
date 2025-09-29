@@ -5,10 +5,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SevShop.Application.Abstracts.Repositories;
+using SevShop.Application.Abstracts.Services.CloudinaryService;
 using SevShop.Application.Shared.Helpers;
 using SevShop.Application.Shared.Settings;
 using SevShop.Application.Validations.CategoryValidators;
 using SevShop.Domain.Entities;
+using SevShop.Infrastructure.Services;
 using SevShop.Persistence;
 using SevShop.Persistence.Contexts;
 using SevShop.Persistence.Repositories;
@@ -121,6 +123,14 @@ builder.Services.AddAuthorization(options =>
 
 
 builder.Services.RegisterService();
+
+
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+
+builder.Services.Configure<CloudinarySettings>(
+    builder.Configuration.GetSection("CloudinarySettings"));
+
+
 
 var app = builder.Build();
 
