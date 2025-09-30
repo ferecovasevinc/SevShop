@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\SevShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|solutionrelative:src\\presentation\\sevshop.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|solutionrelative:src\\presentation\\sevshop.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4B16BE-637F-4C76-BE9E-C1A33074081C}|src\\Presentation\\SevShop.WebApi\\SevShop.WebApi.csproj|solutionrelative:src\\presentation\\sevshop.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|solutionrelative:src\\presentation\\sevshop.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{090FF0CB-3ABD-4AB1-92F7-19F9C5808AE3}|src\\Presentation\\SevShop.MVC\\SevShop.MVC.csproj|c:\\users\\msi\\source\\repos\\sevshop\\src\\presentation\\sevshop.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-30T12:31:31.838Z",
               "EditorCaption": ""
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.WebApi\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\SevShop.WebApi\\Controllers\\CategoriesController.cs",
@@ -91,8 +91,7 @@
               "RelativeToolTip": "src\\Presentation\\SevShop.WebApi\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAYwDEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T04:53:44.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T04:53:44.875Z"
             },
             {
               "$type": "Document",
@@ -120,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.MVC\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\SevShop.MVC\\Controllers\\ProductController.cs",
