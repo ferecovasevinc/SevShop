@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\SevShop\\src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml*",
               "RelativeToolTip": "src\\Presentation\\SevShop.MVC\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-30T12:31:31.838Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "src\\Presentation\\SevShop.WebApi\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T04:53:44.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T04:53:44.875Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "src\\Presentation\\SevShop.MVC\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T03:55:23.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T03:55:23.205Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "src\\Presentation\\SevShop.MVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T03:48:15.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T03:48:15.646Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "src\\Presentation\\SevShop.MVC\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T03:45:01.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T03:45:01.797Z"
             },
             {
               "$type": "Document",
