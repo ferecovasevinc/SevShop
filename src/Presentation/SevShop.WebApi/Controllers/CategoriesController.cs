@@ -56,7 +56,7 @@ public class CategoriesController : ControllerBase
     [ProducesResponseType(typeof(BaseResponse<string>), (int)HttpStatusCode.BadRequest)]
     public async Task<IActionResult> Update(Guid id, [FromBody] CategoryUpdateDto dto)
     {
-        dto.Id = id; // ID-ni DTO-ya əlavə et
+        dto.Id = id;
         var result = await _categoryService.UpdateAsync(dto);
         return StatusCode((int)result.StatusCode, result);
     }

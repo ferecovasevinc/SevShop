@@ -1,0 +1,34 @@
+﻿@model List<SevShop.MVC.Controllers.ProductVm>
+
+@{
+    ViewData["Title"] = "Məhsullar";
+}
+
+<h2>Məhsullar</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>Hələ məhsul yoxdur.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Adı</th>
+                <th>Qiyməti</th>
+                <th>Açıqlama</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price ₼</td>
+                    <td>@item.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
